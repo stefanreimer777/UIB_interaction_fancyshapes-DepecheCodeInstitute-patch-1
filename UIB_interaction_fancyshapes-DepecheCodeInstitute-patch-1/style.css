@@ -1,0 +1,45 @@
+/* reset css */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+section {
+    margin-top: 10px;
+   
+}
+
+.task-one {
+    background: turquoise;
+}
+
+.task-one:before {
+    content: 'Once upon a time ...';
+    background: purple;
+    font-style: bold italic;
+}
+
+.task-one:after {
+    content: '...The end';
+    background: purple;
+    font-style: bold italic;
+}
+
+.task-two {
+    padding-bottom: 80px;
+    width: 500px;
+    height: 400px;
+    background: url(assets/beach.jpg);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+
+.task-three {
+    width: 30%;
+    transform: rotate(180deg);
+    
+
+}
+
